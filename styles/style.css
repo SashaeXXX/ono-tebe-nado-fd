@@ -185,7 +185,7 @@ body {
 .list__film {
     background-image: 
         url("../images/overlay_one.svg"),
-        url("../images/photo_one.svg");
+        url("../images/photo_one.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
