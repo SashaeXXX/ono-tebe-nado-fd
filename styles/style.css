@@ -16,13 +16,13 @@ body {
     font-size: 18px;
 }
 
-.header__item__selected__active {
-    list-style: none;
-}
-
 .header__item__selected {
     align-items: center;
     list-style: circle;
+}
+
+.header__item__selected__active {
+    list-style: none;
 }
 
 .header__link__active {
@@ -250,7 +250,7 @@ body {
 
 .about__name {
     display: flex;
-    font-family: "Raleway";
+    font-family: "Raleway", Arial, sans-serif;
     font-weight: bold;
     font-size: 40px;
     justify-content: flex-start;
@@ -278,7 +278,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 182px;
-    height: 180px;
+    margin-bottom: 80px;
 }
 
 .footer__address__block {
@@ -313,7 +313,7 @@ body {
     gap: 48px;
 }
 
-.YouTube, .VK, .Pinterest {
+.logos {
     width: 48px;
     height: 48px;
 }
